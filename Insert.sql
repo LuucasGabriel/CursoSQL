@@ -1,0 +1,26 @@
+
+Use PRIMEIRO_BD
+
+INSERT INTo CLIENTES
+(
+	[ID_CLIENTE]
+	,[NOME]
+	,[DATA_CADASTRO]
+	,[EMAIL]
+)
+VALUES
+(
+	1
+	,'Lucas'
+	,GETDATE()
+	,'Lucas@gmail.com'
+)
+
+
+
+SELECT
+		ID_CLIENTE
+		,NOME
+		,DATA_CADASTRO
+		,EMAIL
+	FROM CLIENTES

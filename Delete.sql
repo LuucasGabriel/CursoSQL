@@ -1,0 +1,7 @@
+
+Use PRIMEIRO_BD
+
+Delete CLIENTES
+Where ID_CLIENTE = 1
+
+select * From CLIENTES
